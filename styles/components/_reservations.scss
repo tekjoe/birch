@@ -1,0 +1,36 @@
+.reservations__content {
+  background: $primary-100;
+  padding: 1.5rem;
+  &--body {
+    background: white;
+    text-align: center;
+    padding: 1rem;
+    h2 {
+      font-weight: bold;
+      margin-bottom: 1rem;
+      font-size: $h4;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .reservations__content {
+    margin: 0 4rem;
+    padding: 2rem;
+    &--body {
+      padding: 2rem;
+      h2 {
+        font-size: $h3;
+      }
+      p {
+        margin: 1rem 15%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .reservations__content--body h2 {
+    font-size: $h2;
+  }
+}

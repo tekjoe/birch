@@ -1,0 +1,47 @@
+.mobile-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: $primary-700;
+  z-index: 99999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    height: 60px;
+    color: $primary-100;
+    font-weight: bold;
+    font-size: 9px;
+    cursor: pointer;
+    padding: 1rem 0.5rem;
+    flex: 1;
+    border-right: 1px solid $primary-100;
+    text-transform: uppercase;
+    &:last-child {
+      border: none;
+      background: $primary-700;
+    }
+  }
+}
+
+.icon {
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+}

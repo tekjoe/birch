@@ -1,0 +1,23 @@
+.video {
+  margin-top: 55px;
+  video {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video {
+    margin-top: 128px;
+    video {
+      width: 100% !important;
+      height: 50vh !important;
+    }
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video video {
+    width: 100%;
+    height: auto;
+  }
+}

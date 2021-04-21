@@ -1,0 +1,165 @@
+.footer {
+  background: $primary-900;
+  color: $primary-100;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 4rem;
+  .address {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  &__details {
+    padding: 2rem;
+    flex: 1;
+    margin: auto;
+  }
+}
+
+.insta-feed {
+  display: flex;
+  flex-basis: 100%;
+  height: 187px;
+  // img {
+  //   object-fit: cover;
+  //   flex: 1;
+  //   min-width: 0;
+  // }
+  // img:nth-of-type(3) {
+  //   display: none;
+  // }
+}
+
+.footer-logo {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.footer .hours {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  font-size: 14px;
+  ul {
+    list-style-type: none;
+    li {
+      margin-bottom: $small;
+    }
+    &:last-of-type {
+      text-align: right;
+    }
+  }
+}
+
+.footer__bottom {
+  display: none;
+  background: $primary-100;
+  padding: 2rem 0;
+}
+
+.footer__bottom--details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.footer__nav {
+  display: flex;
+  list-style-type: none;
+  li {
+    padding: 0 1rem;
+    a {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 12px;
+      text-decoration: none;
+      color: $primary-900;
+      letter-spacing: 0.5px;
+      &:hover {
+        color: $primary-500;
+      }
+    }
+  }
+}
+
+.footer__nav li .nav-icon {
+  margin: 0;
+}
+
+.wpmi-list.wpmi-layout-3 .wpmi-item {
+  width: auto !important;
+}
+
+.wpmi-list {
+  flex-wrap: nowrap !important;
+  height: 100%;
+  .wpmi-item a {
+    display: flex;
+  }
+  .wpmi-item:last-child {
+    display: none;
+  }
+}
+
+#sbi_images {
+  display: flex;
+  height: 100%;
+}
+
+#sb_instagram #sbi_images .sbi_item:last-child {
+  display: none;
+}
+
+#sb_instagram.sbi_col_3.sbi_disable_mobile #sbi_images .sbi_item {
+  width: 100%;
+}
+
+#sb_instagram .sbi_photo_wrap {
+  height: 100%;
+  a {
+    height: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__nav {
+    display: flex;
+  }
+  .insta-feed {
+    height: 350px;
+  }
+  .footer {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__bottom {
+    display: block;
+  }
+  .footer {
+    flex-wrap: nowrap;
+    flex-flow: row-reverse;
+  }
+  .footer__details {
+    flex-basis: 45%;
+    padding: 3rem;
+  }
+  .insta-feed {
+    height: auto;
+  }
+  .insta-feed img:nth-of-type(3) {
+    display: inline;
+  }
+  #sb_instagram #sbi_images .sbi_item:last-child {
+    display: block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .insta-feed {
+    height: 400px;
+  }
+}

@@ -1,0 +1,85 @@
+.map {
+  width: 100%;
+  height: 200px;
+}
+
+.contact-container {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .map {
+    height: 40rem;
+  }
+  .contact-container {
+    display: block;
+    position: relative;
+    top: 5rem;
+    left: 10%;
+    z-index: 8999;
+    width: max-content;
+    .contact-details {
+      cursor: default;
+      background: white;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      padding: 2rem;
+      font-family: "Lato";
+      h4 {
+        margin-bottom: 1rem;
+        line-height: normal;
+      }
+      h6 {
+        font-weight: 600;
+        line-height: 1;
+        margin-bottom: 0.5rem;
+        font-size: 20px;
+      }
+      h4 {
+        font-size: 3rem;
+      }
+      h5 {
+        font-size: 2rem;
+      }
+      p {
+        font-family: "Lato";
+        font-size: $p;
+        line-height: normal;
+        margin-bottom: 1rem;
+      }
+      a {
+        color: $primary-500;
+      }
+      .button {
+        color: white;
+      }
+    }
+  }
+}
+
+.attractions {
+  list-style-type: none;
+}
+
+@media (min-width: 1140px) {
+  .contact-container {
+    left: 20%;
+  }
+}
+
+.leaflet-popup-content {
+  padding: 0;
+  text-align: center;
+  p {
+    margin: 10px 0 !important;
+  }
+  a {
+    display: inline-block;
+    background: $primary-500;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white !important;
+    font-weight: bold;
+    font-family: "Lato";
+  }
+}

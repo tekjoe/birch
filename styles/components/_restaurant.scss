@@ -1,0 +1,60 @@
+// Restaurant Section
+.restaurant {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  h3 {
+    text-align: center;
+  }
+}
+
+.restaurant__title {
+  text-align: center;
+}
+
+.restaurant-card {
+  text-align: center;
+  img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 2rem auto;
+    border-radius: 50%;
+    display: block;
+  }
+  &__info {
+    background: #d7d7d7;
+    padding: 1.5rem;
+    h4 {
+      margin-bottom: 1rem;
+    }
+    p {
+      line-height: 1.5;
+      word-break: break-word;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .restaurant-card img {
+    width: 200px;
+    height: 200px;
+  }
+  .restaurant {
+    grid-template-columns: repeat(12, 1fr);
+    margin: 3rem auto;
+    h3 {
+      grid-column: span 12;
+    }
+    &-card {
+      grid-column: span 4;
+    }
+  }
+}
+
+@media (min-width: 1140px) {
+  .restaurant-card img {
+    width: 250px;
+    height: 250px;
+  }
+}

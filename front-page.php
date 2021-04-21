@@ -1,0 +1,10 @@
+<?php get_header(); ?>
+<?php get_template_part('partials/carousel-top'); ?>
+<?php get_template_part('partials/intro-section'); ?>
+<?php get_template_part('partials/menu-section'); ?>
+<?php get_template_part('partials/restaurant-section'); ?>
+<?php get_template_part('partials/carousel-bottom'); ?>
+<?php get_template_part('partials/reservations-section'); ?>
+<?php get_template_part('partials/catering-section'); ?>
+<?php get_template_part('partials/map-section'); ?>
+<?php get_footer(); ?>
