@@ -15,6 +15,7 @@ header {
   height: 4rem;
   align-items: center;
   transition: height 0.2s ease-in-out;
+
   nav ul {
     display: none;
     list-style-type: none;
@@ -60,9 +61,9 @@ header {
   height: 4rem;
 }
 
-.navigation.scrolled > .logo img {
-  height: 40px;
-  width: 40px;
+.navigation.scrolled > .logo-img {
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .fab {
@@ -76,9 +77,9 @@ header {
   display: block;
 }
 
-.logo img {
-  height: 40px;
-  width: 40px;
+.logo-img {
+  height: 4rem;
+  width: 4rem;
   transition: height 0.2s ease-in-out, width 0.2s ease-in-out;
 }
 

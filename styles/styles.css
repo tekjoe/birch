@@ -175,9 +175,9 @@ header {
   height: 4rem;
 }
 
-.navigation.scrolled > .logo img {
-  height: 40px;
-  width: 40px;
+.navigation.scrolled > .logo-img {
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .fab {
@@ -191,9 +191,9 @@ header {
   display: block;
 }
 
-.logo img {
-  height: 40px;
-  width: 40px;
+.logo-img {
+  height: 4rem;
+  width: 4rem;
   transition: height 0.2s ease-in-out, width 0.2s ease-in-out;
 }
 
@@ -725,8 +725,8 @@ header {
 }
 
 .footer-logo {
-  height: 60px;
-  width: 60px;
+  height: 4rem;
+  width: 4rem;
   margin: auto;
   display: block;
   margin-bottom: 2rem;

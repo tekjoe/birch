@@ -36,7 +36,7 @@ const mymap = L.map("map", {
 });
 
 L.mapbox.accessToken =
-  "pk.eyJ1IjoidGVram9lIiwiYSI6Imltd3lPR0EifQ.xTPjsZXiGetNaeGq7oJaLA";
+  "pk.eyJ1IjoidGVram9lIiwiYSI6ImNrNTRmam1oMzBpd2YzZXBuNjBndDc2ZnUifQ.wjFDugqNW99oTEt_s8S7sA";
 
 L.mapbox
   .styleLayer("mapbox://styles/tekjoe/ck558iss20d681cqeyj4u2ov6")
