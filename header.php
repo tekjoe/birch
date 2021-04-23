@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A Hyper-Seasonal New American Restaurant Cooking Over Open Fire" />
+  <meta name="description"
+    content="Hyper-Seasonal American Restaurant and Bar with an extensive wine list, celebrating Wisconsin farmers & food producers and cooking over an open fire." />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Birch | A Hyper-Seasonal New American Restaurant Cooking Over Open Fire</title>
+  <title>Birch</title>
   <?php wp_head(); ?>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127178111-6"></script>
